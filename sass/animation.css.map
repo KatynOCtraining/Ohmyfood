@@ -1,1 +1,1 @@
-{"version":3,"sources":["animation.scss","animation.css"],"names":[],"mappings":"AACI;EACI,qBAAA;EACA,YAAA;EACA,gDAAA;ACAR","file":"animation.css"}
+{"version":3,"sources":["root.scss","animation.css","animation.scss"],"names":[],"mappings":"AAAA;EACI,SAAA;EACA,UAAA;EACA,iCAAA;ACCJ;;ADCA;EACI,iBAAA;EACA,eAAA;EACA,oBAAA;EACA,eAAA;EACA,oBAAA;EACA,oBAAA;EACA,gBAAA;EACA,qEAAA;ACEJ;;ACZI;EACI,qBAAA;EACA,YAAA;EACA,gDAAA;ADeR;;ACRA,QAAA;AAEA;EACI,UAAA;ADUJ","file":"animation.css"}

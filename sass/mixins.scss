@@ -3,4 +3,11 @@
     border: none;
   }
 
-  
+
+.top_page_button{
+    @include boxshadow();
+}
+
+.restaurant__card{
+    @include boxshadow();
+}

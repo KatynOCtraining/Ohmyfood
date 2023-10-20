@@ -1,0 +1,42 @@
+.restaurant{
+    background-color: var(--lightgrey);
+    gap: 20px;
+    a{
+      text-decoration: none;
+      color: black;
+      
+    }
+  
+    &__container{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 0px 17px 0px 17px;
+    }
+  
+    &__card{
+      width: 100%;
+      background-color: white;
+    
+      border-radius: 15px;
+     
+  
+     &_image img{
+      width: 100%;
+      height: 183px;
+      object-fit: cover;
+      border-top-left-radius:15px; ;
+      border-top-right-radius:15px ;
+     }
+    &_content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left:15px;
+      margin-right:15px;
+    }
+    &_icon{
+      font-size: 40px;
+    }
+    }
+  }

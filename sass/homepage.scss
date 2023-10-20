@@ -1,4 +1,4 @@
-@import 'mixins.scss';
+@import'mixins.scss';
 
 /*Header*/
 
@@ -34,7 +34,7 @@ header{
     margin: 40px;
     justify-content: center;
     transition-duration: 250ms;
-    @include box-shadow(); 
+   
 
     &:hover{
       transform: scale(1.20);
@@ -95,7 +95,7 @@ header{
       height: 72px;
       background-color: var(--lightgrey);
       border-radius: 20px;
-      @include box-shadow();
+      
       
       
   

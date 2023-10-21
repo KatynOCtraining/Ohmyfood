@@ -1,4 +1,5 @@
 @import 'root.scss';
+@import 'mixins.scss';
 
 .image__entete{
     height: 275px;
@@ -20,6 +21,7 @@
     position: absolute;
     left: 17px;
     top: 20px;
+    
 
 }
 

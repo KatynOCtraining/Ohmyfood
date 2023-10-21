@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --violet: #9356DC;
+  --rose: #FF79DA;
+  --turquoise: #99e2d0;
+  --grey: #353535;
+  --lightgrey: #F6F6F6;
+  --grey-tint: #7e7e7e;
+  --grey2: #EAEAEA;
+  --button-gradient: linear-gradient(var(--violet)0%, var(--rose)100%);
+}
+
+.image__entete {
+  height: 275px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header_page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_page i {
+  font-size: 30px;
+  position: absolute;
+  left: 17px;
+  top: 20px;
+}
+
+.menu__card {
+  background: var(--lightgrey);
+}/*# sourceMappingURL=restaurant_indiv.css.map */

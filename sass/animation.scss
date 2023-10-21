@@ -13,6 +13,18 @@
 
 /*Coeur*/
 
-#anim_heart{
-    color: red;
+
+
+.anim_heart{
+    display: none;
+
+}
+
+.depop_heart{
+    &:hover{
+        display: none;
+    }
+    &:hover + .anim_heart{
+        display: inline-block;
+    }
 }

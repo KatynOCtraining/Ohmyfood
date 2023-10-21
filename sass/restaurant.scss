@@ -1,9 +1,12 @@
+@import 'root.scss';
+
 .restaurant{
     background-color: var(--lightgrey);
     gap: 20px;
     a{
       text-decoration: none;
       color: black;
+ 
       
     }
   
@@ -37,6 +40,12 @@
     }
     &_icon{
       font-size: 40px;
+     
+     
     }
     }
+  }
+
+  .anim_heart{
+    height: 37px;
   }

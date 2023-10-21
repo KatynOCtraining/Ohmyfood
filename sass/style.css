@@ -12,7 +12,7 @@ body {
   --lightgrey: #F6F6F6;
   --grey-tint: #7e7e7e;
   --grey2: #EAEAEA;
-  --button-gradient: linear-gradient(var(--violet)0%, var(--rose)100%) ;
+  --button-gradient: linear-gradient(var(--violet)0%, var(--rose)100%);
 }
 
 h1 {
@@ -71,7 +71,6 @@ header {
 }
 
 #accroche {
-  padding: 0px 50px 0px 50px;
   background-color: var(--lightgrey);
   width: 100%;
 }
@@ -177,7 +176,7 @@ body {
   --lightgrey: #F6F6F6;
   --grey-tint: #7e7e7e;
   --grey2: #EAEAEA;
-  --button-gradient: linear-gradient(var(--violet)0%, var(--rose)100%) ;
+  --button-gradient: linear-gradient(var(--violet)0%, var(--rose)100%);
 }
 
 .top_page_button:hover {
@@ -187,8 +186,32 @@ body {
 }
 
 /*Coeur*/
-#anim_heart {
-  color: red;
+.anim_heart {
+  display: none;
+}
+
+.depop_heart:hover {
+  display: none;
+}
+.depop_heart:hover + .anim_heart {
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --violet: #9356DC;
+  --rose: #FF79DA;
+  --turquoise: #99e2d0;
+  --grey: #353535;
+  --lightgrey: #F6F6F6;
+  --grey-tint: #7e7e7e;
+  --grey2: #EAEAEA;
+  --button-gradient: linear-gradient(var(--violet)0%, var(--rose)100%);
 }
 
 .restaurant {
@@ -227,6 +250,10 @@ body {
 }
 .restaurant__card_icon {
   font-size: 40px;
+}
+
+.anim_heart {
+  height: 37px;
 }
 
 footer {

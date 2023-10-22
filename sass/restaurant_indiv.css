@@ -55,6 +55,10 @@ body {
 
 main {
   background: var(--lightgrey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .menu_title {
@@ -91,6 +95,9 @@ main {
   font-weight: 300;
   line-height: normal;
   text-transform: uppercase;
+  border-bottom: 3px solid var(--turquoise);
+  width: 40px;
+  margin-left: 15px;
 }
 
 .button__plat {

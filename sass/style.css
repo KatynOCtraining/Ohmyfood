@@ -1,3 +1,4 @@
+@import url(./root.scss);
 body {
   margin: 0;
   padding: 0;
@@ -353,8 +354,12 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--lightgrey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   animation: hideDiv 3s forwards;
+  z-index: 3;
 }
 
 @keyframes hideDiv {
@@ -367,8 +372,8 @@ body {
   height: 48px;
   border-radius: 50%;
   display: inline-block;
-  border-top: 4px solid #FFF;
-  border-right: 4 px solid transparent;
+  border-top: 4px solid var(--rose);
+  border-right: 4px solid transparent;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
 }
@@ -382,7 +387,7 @@ body {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  border-left: 4px solid #FF3D00;
+  border-left: 4px solid var(--violet);
   border-bottom: 4px solid transparent;
   animation: rotation 0.5s linear infinite reverse;
 }

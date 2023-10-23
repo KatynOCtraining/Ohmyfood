@@ -80,7 +80,9 @@ header {
 .fonctionnement {
   display: flex;
   flex-direction: column;
-  padding-top: 48px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: white;
 }
 .fonctionnement__btn_container {
   display: flex;

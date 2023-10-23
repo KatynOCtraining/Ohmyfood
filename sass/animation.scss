@@ -68,3 +68,29 @@
         transform: translateY(0);
     }
 }
+
+
+.button__plat{
+    overflow: hidden;
+}
+
+
+.button__invisible_container{
+    transform:translateX(55%);
+    transition: transform 0.4s ease-in-out;
+}
+
+.button__visible{
+    &:hover + .button__invisible_container{
+        transform: translateX(0%);
+      
+       
+    }
+
+
+}
+
+
+
+
+

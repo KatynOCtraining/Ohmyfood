@@ -584,4 +584,8 @@ main {
     align-items: center;
     font-size: 16px;
   }
+  .menu {
+    max-width: 1055px;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=style.css.map */

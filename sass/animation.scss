@@ -13,21 +13,35 @@
 
 /*Coeur*/
 
+.restaurant__card_icon{
+    position: relative;
+    width: 25px;
+    height: 25px;
 
 
-.anim_heart{
-    display: none;
-
-}
-
-.depop_heart{
-    &:hover{
-        display: none;
+    .depop_heart{
+        position: absolute;
+        transition: opacity 1s ease;
     }
-    &:hover + .anim_heart{
+
+    .anim_heart{
         display: inline-block;
+        position:absolute;
+        transition: opacity 1s ease;
+        opacity: 0;
+        background: var(--button-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    &:hover{
+        .anim_heart{
+            opacity: 1;
+        }
     }
 }
+
+
 
 
 .menu_sub{

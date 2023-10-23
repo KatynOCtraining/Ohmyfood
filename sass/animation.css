@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
-  margin: 0;
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
@@ -23,15 +24,26 @@ body {
 }
 
 /*Coeur*/
-.anim_heart {
-  display: none;
+.restaurant__card_icon {
+  position: relative;
+  width: 25px;
+  height: 25px;
 }
-
-.depop_heart:hover {
-  display: none;
+.restaurant__card_icon .depop_heart {
+  position: absolute;
+  transition: opacity 1s ease;
 }
-.depop_heart:hover + .anim_heart {
+.restaurant__card_icon .anim_heart {
   display: inline-block;
+  position: absolute;
+  transition: opacity 1s ease;
+  opacity: 0;
+  background: var(--button-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.restaurant__card_icon:hover .anim_heart {
+  opacity: 1;
 }
 
 .menu_sub {

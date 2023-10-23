@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -31,4 +32,29 @@ body {
 }
 .depop_heart:hover + .anim_heart {
   display: inline-block;
+}
+
+.menu_sub {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.entrées {
+  animation: fadeIn 1s ease 0.5s forwards;
+}
+
+.plats {
+  animation: fadeIn 1s ease 1s forwards;
+}
+
+.desserts {
+  animation: fadeIn 1s ease 1.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }/*# sourceMappingURL=animation.css.map */

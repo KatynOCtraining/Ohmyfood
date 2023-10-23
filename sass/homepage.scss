@@ -4,8 +4,11 @@
 
 header{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
+    height: 63px;
+    
  
     
 }
@@ -45,6 +48,8 @@ header{
 #top_page__button{
   background: var(--lightgrey);
   width: 100%;
+  text-align: center;
+  justify-content: center;
 }
 
 #accroche{
@@ -91,7 +96,7 @@ header{
       display: flex;
       flex-direction: row;
       align-items: center;
-      width: 322px;
+      width: 90%;
       height: 72px;
       background-color: var(--lightgrey);
       border-radius: 20px;

@@ -7,6 +7,10 @@
     object-fit: cover;
   }
 
+.indiv_main{
+    background: white;
+}
+
   .header_page{
     display: flex;
     flex-direction: row;
@@ -68,6 +72,7 @@ main{
     flex-direction: column;
     background: var(--lightgrey);
     gap: 40px;
+    margin: 0 auto;
 
     &_sub{
         display: flex;

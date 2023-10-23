@@ -35,5 +35,18 @@
   .menu {
     max-width: 1055px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .menu_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .menu_sub {
+    width: 65%;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=mediaquerries.css.map */

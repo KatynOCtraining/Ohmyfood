@@ -293,6 +293,7 @@ body {
   flex-direction: column;
   gap: 20px;
   padding: 0px 17px 0px 17px;
+  margin-bottom: 30px;
 }
 .restaurant__card {
   width: 100%;
@@ -325,23 +326,13 @@ body {
 footer {
   background-color: var(--grey);
   color: white;
-  width: 100%;
-  height: 181%;
-  position: relative;
-  bottom: -20px;
-  padding-bottom: 10px;
+  max-width: 1440px;
 }
-footer__title {
-  font-family: "Shrikhand";
-  font-size: 18px;
-  font-weight: 400;
-  position: relative;
-}
-footer__content_icon {
+footer.footer__content_icon {
   font-size: 18px;
   font-weight: 500;
 }
-footer__content_simple {
+footer.footer__content_simple {
   font-size: 16px;
   font-weight: 400;
 }
@@ -601,6 +592,7 @@ main {
   footer {
     display: flex;
     flex-direction: row-reverse;
+    max-width: 1440px;
     padding: 25px 30px 25px 30px;
     gap: 30px;
   }

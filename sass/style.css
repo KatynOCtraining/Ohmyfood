@@ -627,6 +627,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 80px;
   }
   .restaurant__card {
     width: 45%;

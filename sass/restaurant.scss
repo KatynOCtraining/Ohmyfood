@@ -24,6 +24,10 @@
       background-color: white;
     
       border-radius: 15px;
+
+      &_image{
+        position: relative;
+      }
      
   
      &_image img{
@@ -46,6 +50,25 @@
      
     }
     }
+  }
+
+  .news_btn{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    top:10px;
+    right: 10px;
+    width: 80px;
+    height: 29px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--green_font);
+    background: var(--green);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+
   }
 
   .anim_heart{

@@ -13,6 +13,8 @@ body {
   --lightgrey: #F6F6F6;
   --grey-tint: #7e7e7e;
   --grey2: #EAEAEA;
+  --green: #99E2D0;
+  --green_font: #008766;
   --button-gradient: linear-gradient(var(--violet)0%, var(--rose)100%);
 }
 

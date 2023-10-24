@@ -85,6 +85,7 @@
     &:hover + .button__invisible_container{
         animation: Slide_left 0.3s ease-in-out;
         animation-fill-mode: forwards;
+        
       
        
     }
@@ -95,7 +96,7 @@
 @keyframes Slide_left{
     to{
         transform: translateX(0%);
-        animation-fill-mode: forwards;
+        animation-fill-mode:forwards;
     }
 }
 

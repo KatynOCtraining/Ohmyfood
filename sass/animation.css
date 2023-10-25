@@ -91,4 +91,7 @@ body {
     transform: translateX(0%);
     animation-fill-mode: forwards;
   }
+}
+.fonctionnement__btn:hover {
+  background: #EBDEF0;
 }/*# sourceMappingURL=animation.css.map */

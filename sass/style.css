@@ -272,6 +272,10 @@ body {
     animation-fill-mode: forwards;
   }
 }
+.fonctionnement__btn:hover {
+  background: #EBDEF0;
+}
+
 body {
   max-width: 1440px;
   margin: 0 auto;

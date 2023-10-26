@@ -2,20 +2,22 @@ footer {
   background-color: var(--grey);
   color: white;
   max-width: 1440px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-footer.footer__content_icon {
+footer h1 {
   font-size: 18px;
-  font-weight: 500;
-}
-footer.footer__content_simple {
-  font-size: 16px;
-  font-weight: 400;
+  margin-top: 0;
 }
 
-.fa-ustensils, .fa-handshake-angle {
-  padding-right: 12px;
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  cursor: pointer;
 }
-
-.fa-handshake-angle {
-  padding-right: 5px;
+.footer__content_icon i {
+  margin-right: 10px;
 }/*# sourceMappingURL=footer.css.map */

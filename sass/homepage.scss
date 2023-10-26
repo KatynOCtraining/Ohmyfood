@@ -37,6 +37,7 @@ header{
     margin: 40px;
     justify-content: center;
     transition-duration: 250ms;
+    cursor: pointer;
    
 
     &:hover{
@@ -95,6 +96,7 @@ header{
     }
   
     &__btn{
+      
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -103,6 +105,8 @@ header{
       background-color: var(--lightgrey);
       border-radius: 20px;
       border: none;
+      cursor: pointer;
+    
       
       
       

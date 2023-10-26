@@ -73,6 +73,7 @@ header {
   margin: 40px;
   justify-content: center;
   transition-duration: 250ms;
+  cursor: pointer;
 }
 .top_page_button:hover {
   transform: scale(1.2);
@@ -131,6 +132,7 @@ header {
   background-color: var(--lightgrey);
   border-radius: 20px;
   border: none;
+  cursor: pointer;
 }
 .fonctionnement__btn_order {
   position: relative;
@@ -316,6 +318,10 @@ body {
   width: 100%;
   background-color: white;
   border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+.restaurant__card:hover {
+  transform: scale(1.05);
 }
 .restaurant__card_image {
   position: relative;
@@ -365,22 +371,24 @@ footer {
   background-color: var(--grey);
   color: white;
   max-width: 1440px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-footer.footer__content_icon {
+footer h1 {
   font-size: 18px;
-  font-weight: 500;
-}
-footer.footer__content_simple {
-  font-size: 16px;
-  font-weight: 400;
+  margin-top: 0;
 }
 
-.fa-ustensils, .fa-handshake-angle {
-  padding-right: 12px;
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  cursor: pointer;
 }
-
-.fa-handshake-angle {
-  padding-right: 5px;
+.footer__content_icon i {
+  margin-right: 10px;
 }
 
 body {
@@ -650,6 +658,7 @@ main {
     text-align: center;
     align-items: center;
     font-size: 16px;
+    gap: 30px;
   }
   .menu {
     max-width: 1055px;

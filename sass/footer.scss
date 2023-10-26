@@ -1,28 +1,35 @@
 footer{
+
+    h1{
+      font-size: 18px;
+      margin-top: 0;
+    }
     background-color: var(--grey);
     color: white;
-   
     max-width: 1440px;
+    padding:25px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     
-    
-    
+
   
   
-    &.footer__content_icon{
-      font-size: 18px;
-      font-weight: 500;
-  
-    }
-    &.footer__content_simple{
-      font-size: 16px;
-      font-weight: 400;
-    }
+    
   }
   
-  .fa-ustensils, .fa-handshake-angle{
-    padding-right: 12px;
+
+
   
-  }
-  .fa-handshake-angle{
-    padding-right: 5px;
+  .footer__content{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    cursor: pointer;
+
+
+    &_icon i{
+      margin-right: 10px;
+
+    }
   }

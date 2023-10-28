@@ -63,6 +63,10 @@ header {
   justify-content: center;
   text-align: center;
 }
+.top_page__button {
+  margin: 0;
+  padding: 0;
+}
 .top_page_button {
   color: white;
   background: var(--button-gradient);
@@ -484,6 +488,7 @@ main {
   background: var(--lightgrey);
   gap: 40px;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 .menu_sub {
   display: flex;

@@ -12,7 +12,10 @@ footer{
     flex-direction: column;
     gap: 16px;
     
-
+  a{
+    text-decoration: none;
+    color: white;
+  }
   
   
     
@@ -34,4 +37,6 @@ footer{
     }
   }
 
- 
+#indiv_footer{
+  transform: translateY(-40px);
+}

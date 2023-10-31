@@ -161,8 +161,6 @@ main{
    .button__invisible{
     
      font-size: 18px;
-   
-     
      color: white;
      background-color: var(--turquoise);
      border-top-right-radius: 15.043px; ;
@@ -171,6 +169,10 @@ main{
      height: 69px;
      margin: 0;
      padding: 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
     
    }
 
@@ -182,13 +184,17 @@ main{
     gap: 30px;
 
     i{
-        padding-top: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
    }
 
    
 
-   
+   .bouton_resto_indiv{
+    transform: translateY(-40px);
+   }
    
    
 

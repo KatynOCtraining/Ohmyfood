@@ -78,27 +78,20 @@
 
 .button__invisible_container{
     transform:translateX(55%);
+    transition: 0.5s;
     
 }
 
 .button__visible{
     &:hover + .button__invisible_container{
-        animation: Slide_left 0.3s ease-in-out;
-        animation-fill-mode: forwards;
-        
-      
-       
-    }
-
-
-}
-
-@keyframes Slide_left{
-    to{
         transform: translateX(0%);
-        animation-fill-mode:forwards;
+        transition: 0.5s
+     
     }
+
+
 }
+
 
 
 

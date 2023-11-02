@@ -541,6 +541,7 @@ main {
   margin-right: 20px;
   padding-right: 0;
   padding-left: 10px;
+  box-sizing: border-box;
 }
 .button__plat h2 {
   font-family: "Roboto";

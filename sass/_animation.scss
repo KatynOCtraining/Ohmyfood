@@ -85,9 +85,11 @@
 .button__visible{
     &:hover + .button__invisible_container{
         transform: translateX(0%);
-        transition: 0.5s
+        transition: 0.5s;
+      
      
     }
+
 
 
 }

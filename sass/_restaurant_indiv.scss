@@ -73,6 +73,7 @@ main{
     background: var(--lightgrey);
     gap: 40px;
     margin: 0 auto;
+    
     padding-bottom: 40px;
     
 
@@ -80,6 +81,7 @@ main{
         display: flex;
         flex-direction: column;
         gap: 12px;
+        margin-bottom: 10px;
     }
 
 
@@ -103,7 +105,6 @@ main{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  
     background-color: white;
     border: none;
     @include boxshadow();
@@ -115,6 +116,8 @@ main{
     padding-left: 10px;
     box-sizing: border-box;
     
+    height: 69px;
+   
   
   
 
@@ -128,6 +131,10 @@ main{
         font-weight: 300;
         font-size: 18px;
         margin: 0;
+        display: flex;
+       
+      
+ 
     
 
    }
@@ -138,6 +145,7 @@ main{
     justify-content: left;
     align-items: start;
     gap: 10px;
+    
    }
     
    }
@@ -149,6 +157,8 @@ main{
      width: 100%;
      margin: 0;
      padding: 0;
+ 
+
     }
    
    .button__price_anim{
@@ -174,6 +184,7 @@ main{
      flex-direction: column;
      justify-content: center;
      text-align: center;
+
     
    }
 
@@ -195,6 +206,7 @@ main{
 
    .bouton_resto_indiv{
     transform: translateY(-40px);
+    padding-top: 15px;
    }
    
    

@@ -514,6 +514,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  margin-bottom: 10px;
 }
 .menu_sub_title {
   font-style: normal;
@@ -541,6 +542,7 @@ main {
   padding-right: 0;
   padding-left: 10px;
   box-sizing: border-box;
+  height: 69px;
 }
 .button__plat h2 {
   font-family: "Roboto";
@@ -552,6 +554,7 @@ main {
   font-weight: 300;
   font-size: 18px;
   margin: 0;
+  display: flex;
 }
 .button__plat_txt {
   display: flex;
@@ -606,6 +609,7 @@ main {
 
 .bouton_resto_indiv {
   transform: translateY(-40px);
+  padding-top: 15px;
 }
 
 body {

@@ -733,6 +733,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin-top: -40px;
   }
   .menu_title {
     display: flex;

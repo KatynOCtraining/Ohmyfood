@@ -72,7 +72,7 @@
 
 
 .button__plat{
-    overflow: hidden;
+    overflow:hidden;
 }
 
 
@@ -86,11 +86,12 @@
     &:hover + .button__invisible_container{
         transform: translateX(0%);
         transition: 0.5s;
+
       
-     
+
+  
+           
     }
-
-
 
 }
 

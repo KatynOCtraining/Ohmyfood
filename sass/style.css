@@ -110,6 +110,13 @@ header {
   background-color: var(--grey2);
   width: 100%;
   justify-content: center;
+}
+#geoloc input {
+  width: 20%;
+  border: none;
+  height: 50px;
+  text-align: center;
+  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -412,7 +419,7 @@ footer a {
 }
 
 #indiv_footer {
-  transform: translateY(-40px);
+  margin-top: 0;
 }
 
 body {
@@ -493,6 +500,9 @@ main {
 .menu_titleh1 {
   font-size: 28px;
 }
+.menu_titleh2 {
+  font-size: 16px;
+}
 .menu_title i {
   font-size: 22px;
 }
@@ -501,20 +511,18 @@ main {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   position: relative;
-  top: -40px;
   width: 100%;
   display: flex;
   flex-direction: column;
   background: var(--lightgrey);
   gap: 40px;
-  margin: 0 auto;
-  padding-bottom: 40px;
+  margin-top: -40px;
 }
 .menu_sub {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .menu_sub_title {
   font-style: normal;
@@ -524,13 +532,17 @@ main {
   border-bottom: 3px solid var(--turquoise);
   width: 40px;
   margin-left: 15px;
+  font-size: 16px;
+}
+
+#menu_sub_title {
+  font-size: 16px;
 }
 
 .button__plat {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   background-color: white;
   border: none;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -542,7 +554,6 @@ main {
   padding-right: 0;
   padding-left: 10px;
   box-sizing: border-box;
-  height: 69px;
 }
 .button__plat h2 {
   font-family: "Roboto";
@@ -554,7 +565,6 @@ main {
   font-weight: 300;
   font-size: 18px;
   margin: 0;
-  display: flex;
 }
 .button__plat_txt {
   display: flex;
@@ -605,11 +615,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.bouton_resto_indiv {
-  transform: translateY(-40px);
-  padding-top: 15px;
+  height: 100%;
 }
 
 body {

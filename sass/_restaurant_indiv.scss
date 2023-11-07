@@ -28,7 +28,7 @@
     position: absolute;
     left: 10px;
     top:27px;
-
+   
     
     
 
@@ -56,8 +56,14 @@ main{
         font-size: 28px;
     }
 
+    &h2{
+        font-size: 16px;
+    }
+
     & i {
           font-size: 22px;
+
+    
 
     }
 }
@@ -66,22 +72,23 @@ main{
     border-top-left-radius: 40px; 
     border-top-right-radius: 40px;
     position: relative;
-    top : -40px;
+   
     width: 100%;
     display: flex;
     flex-direction: column;
     background: var(--lightgrey);
     gap: 40px;
-    margin: 0 auto;
     
-    padding-bottom: 40px;
+    margin-top: -40px;
+    
+   
     
 
     &_sub{
         display: flex;
         flex-direction: column;
         gap: 12px;
-        margin-bottom: 10px;
+        padding-bottom: 10px;
     }
 
 
@@ -93,10 +100,15 @@ main{
         border-bottom: 3px solid var(--turquoise);
         width: 40px;
         margin-left: 15px;
+        font-size: 16px;
       
     }
 
 
+}
+
+#menu_sub_title{
+    font-size: 16px;
 }
 
 
@@ -104,7 +116,6 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     background-color: white;
     border: none;
     @include boxshadow();
@@ -116,7 +127,7 @@ main{
     padding-left: 10px;
     box-sizing: border-box;
     
-    height: 69px;
+
    
   
   
@@ -131,7 +142,10 @@ main{
         font-weight: 300;
         font-size: 18px;
         margin: 0;
-        display: flex;
+       
+      
+      
+     
        
       
  
@@ -145,7 +159,7 @@ main{
     justify-content: left;
     align-items: start;
     gap: 10px;
-    
+ 
    }
     
    }
@@ -199,16 +213,13 @@ main{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 100%;
     }
    }
 
    
 
-   .bouton_resto_indiv{
-    transform: translateY(-40px);
-    padding-top: 15px;
-   }
-   
+
    
 
 

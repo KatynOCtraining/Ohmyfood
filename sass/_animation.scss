@@ -73,13 +73,20 @@
 
 .button__plat{
     overflow:hidden;
+    // h3{
+    //     overflow: hidden;
+    //     white-space: nowrap;
+    //     text-overflow: ellipsis;
+    //     }
+        
 }
 
 
 .button__invisible_container{
     transform:translateX(55%);
     transition: 0.5s;
-    
+
+   
 }
 
 .button__visible{

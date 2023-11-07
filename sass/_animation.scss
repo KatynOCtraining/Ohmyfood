@@ -91,6 +91,13 @@
         transition: 0.5s;
 }
 
+&:hover h3{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: calc(100% - 55%);
+}
+
 }
 
 

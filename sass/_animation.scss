@@ -71,33 +71,23 @@
 }
 
 
-.button__plat{
-    overflow:hidden;
+.button__plat {
+    &:hover{
 
-}
-
-
-.button__invisible_container{
-    transform:translateX(55%);
-    transition: 0.5s;
-
-   
-}
-
-.button__visible{
-  
-    &:hover + .button__invisible_container{
-        transform: translateX(0%);
-        transition: 0.5s;
-}
-
-&:hover h3{
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    width: calc(100% - 55%);
-}
-
+        h2, h3{
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: calc(80% - 59px);
+            
+        }
+        .button__invisible_container{
+            right: 0;
+        }
+        .button__price_anim{
+            transform: translateX(-59px);
+        }
+    }
 }
 
 

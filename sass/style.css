@@ -277,18 +277,17 @@ body {
     transform: translateY(0);
   }
 }
-.button__plat {
+.button__plat:hover h2, .button__plat:hover h3 {
   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: calc(80% - 59px);
 }
-
-.button__invisible_container {
-  transform: translateX(55%);
-  transition: 0.5s;
+.button__plat:hover .button__invisible_container {
+  right: 0;
 }
-
-.button__visible:hover + .button__invisible_container {
-  transform: translateX(0%);
-  transition: 0.5s;
+.button__plat:hover .button__price_anim {
+  transform: translateX(-59px);
 }
 
 .fonctionnement__btn:hover {
@@ -554,6 +553,8 @@ main {
   padding-right: 0;
   padding-left: 10px;
   box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
 }
 .button__plat h2 {
   font-family: "Roboto";
@@ -578,7 +579,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
+  width: 95%;
   margin: 0;
   padding: 0;
 }
@@ -586,6 +587,9 @@ main {
 .button__price_anim {
   font-weight: 700;
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  transition: transform 1s ease-in-out;
 }
 
 .button__invisible {
@@ -605,11 +609,11 @@ main {
 }
 
 .button__invisible_container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
+  position: absolute;
+  right: -59px;
+  top: 0;
+  height: 100%;
+  transition: right 1s ease-in-out;
 }
 .button__invisible_container i {
   display: flex;

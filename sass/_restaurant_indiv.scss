@@ -126,6 +126,8 @@ main{
     padding-right:0;
     padding-left: 10px;
     box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
     
 
    
@@ -171,7 +173,7 @@ main{
      display: flex;
      flex-direction: row;
      justify-content: space-between;
-     width: 100%;
+     width: 95%;
      margin: 0;
      padding: 0;
  
@@ -181,6 +183,9 @@ main{
    .button__price_anim{
      font-weight: 700;
      font-size: 16px;
+     display: flex;
+     align-items: center;
+     transition: transform 1s ease-in-out;
     
   
 
@@ -206,11 +211,11 @@ main{
    }
 
    .button__invisible_container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+    position: absolute;
+    right: -59px;
+    top: 0;
+    height: 100%;
+    transition: right 1s ease-in-out;
 
     i{
         display: flex;

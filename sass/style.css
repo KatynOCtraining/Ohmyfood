@@ -111,6 +111,9 @@ header {
   width: 100%;
   justify-content: center;
 }
+#geoloc_input {
+  background-color: var(--grey2);
+}
 #geoloc input {
   width: 20%;
   border: none;

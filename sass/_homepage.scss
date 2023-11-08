@@ -77,6 +77,10 @@ header{
   background-color: var(--grey2);
   width: 100%;
   justify-content: center;
+
+  &_input{
+    background-color: var(--grey2);
+  }
  
 
   input{

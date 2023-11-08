@@ -548,10 +548,8 @@ main {
   border: none;
   border-radius: 15.043px;
   width: 96%;
-  margin-left: 10px;
   margin-right: 20px;
   padding-right: 0;
-  padding-left: 10px;
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
@@ -559,20 +557,23 @@ main {
 .button__plat h2 {
   font-family: "Roboto";
   font-weight: 500;
-  font-size: 21px;
+  font-size: 18px;
   margin: 0;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 .button__plat h3 {
   font-weight: 300;
   font-size: 18px;
   margin: 0;
+  padding-bottom: 15px;
+  padding-left: 15px;
 }
 .button__plat_txt {
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: start;
-  gap: 10px;
   width: 75%;
 }
 

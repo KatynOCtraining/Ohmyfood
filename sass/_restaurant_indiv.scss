@@ -164,6 +164,7 @@ main{
     justify-content: left;
     align-items: start;
     gap: 10px;
+    width: 75%;
  
    }
     
@@ -216,6 +217,7 @@ main{
     top: 0;
     height: 100%;
     transition: right 1s ease-in-out;
+    gap: 30px;
 
     i{
         display: flex;

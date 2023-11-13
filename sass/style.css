@@ -34,6 +34,10 @@ h3 {
   margin: 0;
 }
 
+h4 {
+  font-family: "Shrikhand", serif;
+}
+
 .top_page_button {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   border: none;
@@ -284,7 +288,7 @@ body {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: calc(80% - 59px);
+  width: calc(100% - 50px);
 }
 .button__plat:hover .button__invisible_container {
   right: 0;
@@ -480,10 +484,15 @@ body {
 
 .header_page i {
   font-size: 30px;
-  text-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
   position: absolute;
   left: 10px;
   top: 27px;
+  text-decoration: none;
+  color: black;
+}
+.header_page i:hover {
+  color: var(--rose);
 }
 
 main {
@@ -551,7 +560,8 @@ main {
   border: none;
   border-radius: 15.043px;
   width: 96%;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   padding-right: 0;
   box-sizing: border-box;
   position: relative;

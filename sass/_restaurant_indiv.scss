@@ -24,15 +24,20 @@
 
 .header_page i{
     font-size: 30px;
-    text-shadow:  0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
     position: absolute;
     left: 10px;
     top:27px;
-   
-    
-    
+    text-decoration: none;
+    color: black;
 
+
+    &:hover{
+        color: var(--rose);
+    }
 }
+   
+
 
 main{
     background: var(--lightgrey);
@@ -104,6 +109,8 @@ main{
       
     }
 
+  
+
 
 }
 
@@ -121,10 +128,9 @@ main{
     @include boxshadow();
     border-radius: 15.043px;
     width: 96%;
-   
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     padding-right:0;
-   
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
